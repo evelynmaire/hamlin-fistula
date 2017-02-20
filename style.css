@@ -1,0 +1,132 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+@media (max-width: 500px) {
+  ul li {
+    width: 100%;
+  }
+}
+/* Header */
+
+header {
+  background-color: #30627E;
+  margin: 0;
+}
+
+header ul {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header .main {
+  font-size: 28px;
+  background-color: #f6b767;
+}
+
+header li {
+  color: #fff;
+  display: inline-block;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 30px;
+  margin: 0;
+}
+
+/* Jumbotron */
+
+.header-image {
+  background: url("images/bg.jpg") no-repeat center;
+  background-size: cover;
+  height: 500px;
+  margin-bottom: 0;
+}
+
+ h1 {
+  color: #30627E;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif; 
+  margin: 0;
+  font-size: 5em; 
+}
+
+/* Supporting */
+
+.container {
+  text-align: center;
+  padding: 1em;
+  display: flex;
+  width: 90%;
+  border: 1px solid black;
+}
+
+.container h2 {
+  color: #30627E;
+  font-size: 30px;
+  margin-top: 0;
+}
+
+.container p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  min-height: 80px;
+}
+
+.donate {
+  width: 30%;
+  border: 1px solid red;
+}
+
+.information {
+  width: 70%;
+  border: 1px solid green;
+}
+
+.btn {
+  font-size: 16px;
+  border-radius: 0px;
+  margin: 20px auto 60px;
+  padding: 10px 20px;
+  color: #30627E;
+  width: 200px;
+  border: 1px solid #30627E;
+  text-transform: uppercase;
+}
+/* Footer */
+
+footer {
+  color: #fff;
+  background-color: #f6b767;
+  padding: 20px;
+  align-items: auto;
+  display: flex;
+}
+
+/*.footer-container {
+  width: 88%;
+}*/
+
+.left-footer {
+  padding-top: 0.8em;
+  text-align: left;
+  width: 50%;
+}
+
+.right-footer {
+  text-align: right;
+  padding-top: 0.8em;
+  width: 50%;
+}
