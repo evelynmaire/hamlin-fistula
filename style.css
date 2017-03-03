@@ -2,15 +2,9 @@
   box-sizing: border-box;
 }
 
-
-/*img {
-  max-width: 100%;
-  height: auto;
-}*/
-
 html,
 body {
-  font size: 16px;
+  font-size: 16px;
   color: #000000;
   background: #006983;
   margin: 0;
@@ -19,7 +13,6 @@ body {
 
 h1 {
   font-size: 5em;
-  /*font-family: 'Alegreya', serif;*/
   font-family: 'Roboto Condensed', sans-serif;
   color: #006983;
   text-shadow: 2px 2px #eca448;
@@ -28,19 +21,20 @@ h1 {
 h2 {
   font-size: 2em;
   font-family: 'Roboto Condensed', sans-serif;
-  margin: 0;
+  margin: 2em 0 0.5em 0;
   text-transform: uppercase;
   color: #006983;
 }
 
 .headline {
   font-size: 3em;
+  margin: 0;
 }
 
 h3 {
   font-size: 1.5em;
   font-family: 'Roboto Condensed', sans-serif;
-  margin: 0;
+  margin: 1em 0 0 0;
   color: #006983;
 }
 
@@ -57,6 +51,15 @@ blockquote {
   font-family: 'Roboto Condensed', sans-serif;
   color: #006983;
   font-size: 1.5em;
+}
+
+.footer-link a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.footer-link a:hover {
+  text-decoration: none;
 }
 
 
@@ -84,6 +87,9 @@ header .main {
   font-size: 28px;
   background-color: #eca448;
   text-transform: uppercase;
+  color: #006983;
+  font-weight: bold;
+  text-shadow: 2px 2px #f2be7c;
 }
 
 header li {
@@ -115,7 +121,6 @@ header li {
   padding: 16px 32px;
   color: #ffffff;
   border: 2px solid #006983;
-  /*padding: 16px 32px;*/
   display: inline-block;
   margin: 4px 2px;
   text-align: center;
@@ -155,7 +160,6 @@ main {
   background: #eca448;
   width: 100%;
   padding: 2em;
-  /*order: -1;*/
 }
 
 .fact {
@@ -188,13 +192,10 @@ main {
 }
 
 .team {
-  padding: 1em;
-  margin: 1em;
+  padding: 1em 0 0 0;
+  margin: 1em 0 0 0;
   width: 100%;
-  /*border: 1px solid darkgray;*/
-  align-items: center;
   text-align: center;
-  /*background: #f1f1f1;*/
 }
 
 .team-wrapper img {
@@ -211,7 +212,6 @@ main {
   padding: 16px 32px;
   color: #ffffff;
   border: 2px solid #006983;
-  /*padding: 16px 32px;*/
   display: inline-block;
   margin: 4px 2px;
   text-align: center;
@@ -227,17 +227,11 @@ main {
 }
 
 
-/*DOCUMENTARY*/
-
-.documentary {
-  justify-content: center;
-}
-
-
 /*HELP*/
 
 .help-wrapper {
   align-items: center;
+  margin-bottom: 3em;
 }
 
 .help {
@@ -252,6 +246,18 @@ main {
   color: #006983;
 }
 
+
+/*JUMBO IMAGE*/
+
+.jumbo-image {
+  background: url(images/catherine-girls.jpg) no-repeat #006983;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 7em 1em 1em 1em;
+  height: 300px;
+  text-align: center;
+}
 
 /*DONATE*/
 
@@ -275,7 +281,7 @@ textarea {
   border: 2px solid #f2be7c;
   padding: .5em;
   margin-top: .5em;
-  font-color: #006983;
+  color: #006983;
   width: 100%;
   box-sizing: border-box;
   outline: none;
@@ -323,7 +329,7 @@ footer a {
 
 .social {
   font-size: 2em;
-  margin: 0;
+  margin: 0.5em 0 0 0;
 }
 
 

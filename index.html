@@ -6,7 +6,7 @@
   <title>Hamlin Fistula Ethiopia</title>
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="favicon.png">
-  <link href="https://fonts.googleapis.com/css?family=Alegreya|Roboto|Roboto+Condensed" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed" rel="stylesheet">
   <script src="https://use.fontawesome.com/b562907630.js"></script>
 </head>
 
@@ -15,9 +15,6 @@
     <nav>
       <ul>
         <li class="main">Hamlin Fistula Ethiopia</li>
-        <!-- <li>Women</li>
-        <li>Midwives</li>
-        <li>Donate</li> -->
         <li>treating and preventing childbirth injuries
       </ul>
     </nav>
@@ -25,7 +22,7 @@
   <main>
     <div class="header-image">
       <h1>Give the gift of a new life</h1>
-      <button class="donate-button">Donate Today</button>
+      <a href="#donate" class="donate-button">Donate Today</a>
     </div>
     <div class="content-wrapper">
       <div class="content">
@@ -41,63 +38,53 @@
         <h2>Meet Our Founders</h2>
         <div class="team-wrapper">
           <div class="team">
-            <img src="images/catherine.jpg">
-            <p>
-              <h3>Dr Catherine Hamlin</h3> Dr Catherine Hamlin moved to Eithiopia with her husband Reg in 1959 for a three year contract to work as ob-gyns and set up a midwifery school. Almost 60 years later, she is still here fighting to end obstetric fistulas across the developing world.
-            </p>
-            <p>
-              <button class="team-button">More</button>
-            </p>
+            <img src="images/catherine.jpg" alt="Dr Catherine Hamlin AC">
+            <h3>Dr Catherine Hamlin</h3>
+            <p>Dr Catherine Hamlin moved to Eithiopia with her husband Reg in 1959 for a three year contract to work as ob-gyns and set up a midwifery school. Almost 60 years later, she is still here fighting to end obstetric fistulas across the developing world.</p>
+            <a href="#" class="team-button">More</a>
           </div>
           <div class="team">
-            <img src="images/reg.jpg">
-            <p>
-              <h3>Dr Reg Hamlin</h3> Before his death in 1993, Dr Reg Hamlin worked with his wife Catherine, setting up the first fistula hospital in Addis Ababa and refining the surgery used to treat the condition. In the first three years, they treated 300 patients.
-            </p>
-            <p>
-              <button class="team-button">More</button>
-            </p>
+            <img src="images/reg.jpg" alt="Dr Reg Hamlin">
+            <h3>Dr Reg Hamlin</h3>
+            <p>Before his death in 1993, Dr Reg Hamlin worked with his wife Catherine, setting up the first fistula hospital in Addis Ababa and refining the surgery used to treat the condition. In the first three years, they treated 300 patients.</p>
+            <a href="#" class="team-button">More</a>
           </div>
         </div>
-        <!-- <h2>Watch the Documentary</h2>
-          <p class="documentary"><iframe width="560" height="315" src="https://www.youtube.com/embed/ZUe5QChQyvg" frameborder="0" allowfullscreen></iframe></p> -->
         <h2>How You Can Help</h2>
-        <!-- <div class="fact">
-            <p>Over
-              <p class="fact-em">50,000</p>
-              <p>patients healed</p>
-          </div> -->
+        <p>To date, over 50,000 women have been treated to repair the internal damage from obstetric fistula and had their dignity restored.</p>
+        <p>Because of generous donors like you, this life-changing treatment is provided free of charge to the patients.</p>
         <div class="help-wrapper">
           <div class="help">
             <p class="icon"><i class="fa fa-hospital-o" aria-hidden="true"></i></p>
-            <h3>$50 - Physio</h3>
-            <p>$50 could provide long-term physiotherapy for one patient.</p>
-            <button class="team-button">Donate</button>
+            <h3>$40 - Physio</h3>
+            <p>$40 could provide long-term physiotherapy for one patient.</p>
+            <a href="#donate" class="team-button">Donate</a>
           </div>
           <div class="help">
             <p class="icon"><i class="fa fa-cutlery" aria-hidden="true"></i></p>
-            <h3>$120 - food</h3>
-            <p>$120 could provide nutritious food for three patients during their stay.</p>
-            <button class="team-button">Donate</button>
+            <h3>$90 - food</h3>
+            <p>$90 could provide nutritious food for three patients during their stay.</p>
+            <a href="#donate" class="team-button">Donate</a>
           </div>
           <div class="help">
             <p class="icon"><i class="fa fa-heartbeat" aria-hidden="true"></i></p>
-            <h3>$600 - Surgery</h3>
-            <p>$600 could pay for one fistula operation and change a woman's life.</p>
-            <button class="team-button">Donate</button>
+            <h3>$450 - Surgery</h3>
+            <p>$450 could pay for one fistula operation and change a woman's life.</p>
+            <a href="#donate" class="team-button">Donate</a>
           </div>
         </div>
-        <p>To date, over 50,000 women have been treated to repair the internal damage from obstetric fistula and had their dignity restored.</p>
-        <p>Because of generous donors like you, this life-changing treatment is provided free of charge to the patients.</p>
+        <div class="jumbo-image"></div>
+        <blockquote class="jumbo no-screen">“My dream is to eradicate obstetric fistula from Ethiopia. I won’t do this in my lifetime, but you can in yours.”
+          <br>– Dr Catherine Hamlin AC</blockquote>
       </div>
       <div class="donate">
-        <form class="contact-form" action="#" method="POST">
-          <h2 class="headline">Donate</h2>
-          <p>
-            Amount* (USD)
-            <input type="number" placeholder="$" name="donation">
-          </p>
-          <p>
+        <section id="donate">
+          <form class="contact-form" action="#" method="POST">
+            <h2 class="headline">Donate</h2>
+            <p>
+              Amount* (USD)
+              <input type="number" placeholder="$" name="donation">
+            </p>
             <h2>Your Details</h2>
             <p>
               First Name*
@@ -178,7 +165,7 @@
             </p>
             <p>
               Message to include with donation
-              <textarea name="message" rows="10"></textarea>
+              <textarea name="message" rows="5"></textarea>
             </p>
             <h2>Secure Payment Information</h2>
             <div class='card-wrapper'></div>
@@ -253,10 +240,9 @@
               debug: false // optional - default false
             });
             </script>
+          </form>
+        </section>
       </div>
-    </div>
-    </p>
-    </div>
     </div>
   </main>
   <footer>
@@ -265,7 +251,9 @@
       <p class="social"><a href="https://www.facebook.com/DrCatherineHamlin/"><i class="fa fa-facebook" aria-hidden="true"></i></a> <a href="https://www.instagram.com/hamlinfistula/"><i class="fa fa-instagram" aria-hidden="true"></i></a> <a href="https://twitter.com/fistulaethiopia"><i class="fa fa-twitter" aria-hidden="true"></i></a></p>
     </div>
     <div class="footer-right">
-      <p>Content</p>
+      <h4>Contact Us</h4>
+      <p>0800 111 222
+        <br><a class="footer-link" href="mailto:#">mail@hamlin.org</a>
     </div>
   </footer>
 </body>
