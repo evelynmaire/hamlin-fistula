@@ -53,6 +53,15 @@ blockquote {
   font-size: 1.5em;
 }
 
+a {
+  color: #006983;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 .footer-link a {
   color: #ffffff;
   text-decoration: underline;
@@ -93,7 +102,7 @@ header .main {
 }
 
 header li {
-  color: #fff;
+  color: #ffffff;
   display: inline-block;
   font-size: 20px;
   text-align: center;
@@ -363,7 +372,7 @@ footer a {
   /*MAIN*/
   .content-wrapper {
     display: flex;
-    width: 69%;
+    width: 83%;
     justify-content: center;
     flex-direction: row;
     margin: 0 auto;
